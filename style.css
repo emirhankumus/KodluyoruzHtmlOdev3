@@ -1,0 +1,55 @@
+*{
+    background-color: bisque;
+}
+
+h1{
+    color: #774409;
+    font-style: italic;
+}
+
+#header{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* content kısmı */
+#content{
+    text-align: center;
+}
+
+#content ul li{
+    display: inline-block;
+    margin: 15px;
+    text-decoration: underline;
+}
+
+#content ul li b{
+    color: brown;
+}
+
+/* article kısmı */
+.article{
+    display: inline-block;
+    margin-left: 620px;
+}
+
+.article h3{
+    color: white;
+    background-color: brown;
+    display: inline;
+    border-radius: 20px;
+}
+
+.article li{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/*footer kısmı */
+.footer p{
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    float: right;
+    margin-right: 300px;
+}
